@@ -1,6 +1,6 @@
 # MMD Testing with Missing Data
 
-Maximum Mean Discrepancy (MMD) two-sample tests [1] are popular non-parametric methods testing methods. When characteristic kernels such as Gaussian or Laplacian kernels are used, MMD can detect any distributional shift. However, MMD can not be used directly when data may be missing, or only partially observed. 
+Maximum Mean Discrepancy (MMD) two-sample tests [1] are popular non-parametric testing methods that can handle both univariate and multivariate data. When characteristic kernels such as Gaussian or Laplacian kernels are used, MMD can detect any distributional shift. However, MMD can not be used directly when data may be missing, or only partially observed. 
 
 This repository contains R implementations for performing Maximum Mean Discrepancy (MMD) two-sample tests in the presence of missing data methods proposed in [1]. The methods provide both permutation-based and asymptotic testing procedures that can handle missing not at random (MNAR) data patterns, which is common in real-world applications.
 
