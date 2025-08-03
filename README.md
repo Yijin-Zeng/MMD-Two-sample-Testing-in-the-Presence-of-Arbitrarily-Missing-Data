@@ -1,10 +1,8 @@
 # MMD two sample testing in the presence of arbitrarily missing data
 
-Maximum Mean Discrepancy (MMD) two-sample tests [1] are popular non-parametric testing methods that can handle both univariate and multivariate data. When characteristic kernels such as Gaussian or Laplacian kernels are used, MMD can detect any distributional shift. However, MMD can not be used directly when data may be missing, or only partially observed. 
+The Maximum Mean Discrepancy (MMD) two-sample test (Gretton et al., 2012) is a popular non-parametric method capable of handling both univariate and multivariate data. When characteristic kernels—such as Gaussian or Laplacian—are employed, MMD can detect any distributional shift. However, it cannot be directly applied when the data contain missing values or are only partially observed.
 
-This repository contains R implementations for performing Maximum Mean Discrepancy (MMD) two-sample tests in the presence of missing data methods proposed in [1]. The methods provide both permutation-based and asymptotic testing procedures that can handle missing not at random (MNAR) data patterns, which is common in real-world applications.
-
-See more details in [1].
+This repository provides R implementations of Maximum Mean Discrepancy (MMD) two-sample tests designed to handle missing data, based on the methods proposed by (Zeng et al. 2024). These methods make no assumptions about the missingness mechanisms, and are particularly useful when data are missing not at random (MNAR). The methods are based on finding mathematical precise bounds of the MMD test statistics when the Laplacian kernel is used, and reject the null hypothesis when all possible test statistics are significant. For further details, see Zeng et al. (2024).
 
 ## Files Structure
 
@@ -21,6 +19,6 @@ See more details in [1].
 
 ## References
 
-[1] Gretton A, Borgwardt KM, Rasch MJ, Schölkopf B, Smola A. A kernel two-sample test. The journal of machine learning research. 2012 Mar 1;13(1):723-73.
+Gretton A, Borgwardt KM, Rasch MJ, Schölkopf B, Smola A. A kernel two-sample test. The journal of machine learning research. 2012 Mar 1;13(1):723-73.
 
-[2] Zeng Y, Adams NM, Bodenham DA. MMD Two-sample Testing in the Presence of Arbitrarily Missing Data. arXiv preprint arXiv:2405.15531. 2024 May 24.
+Zeng Y, Adams NM, Bodenham DA. MMD Two-sample Testing in the Presence of Arbitrarily Missing Data. arXiv preprint arXiv:2405.15531. 2024 May 24.
