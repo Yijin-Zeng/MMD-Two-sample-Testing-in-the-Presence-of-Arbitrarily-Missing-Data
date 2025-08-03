@@ -1,6 +1,6 @@
 # MMD two sample testing in the presence of arbitrarily missing data
 
-The Maximum Mean Discrepancy (MMD) two-sample test (Gretton et al., 2012) is a popular non-parametric method capable of handling both univariate and multivariate data. When characteristic kernels—such as Gaussian or Laplacian—are employed, MMD can detect any distributional shift. However, it cannot be directly applied when the data contain missing values or are only partially observed.
+The Maximum Mean Discrepancy (MMD) two-sample test (Gretton et al., 2012) is a popular non-parametric method capable of handling both univariate and multivariate data. When characteristic kernels, such as Gaussian or Laplacian kernel, are employed, MMD can detect any distributional shift. However, it cannot be directly applied when the data contain missing values or are only partially observed.
 
 This repository provides R implementations of Maximum Mean Discrepancy (MMD) two-sample tests designed to handle missing data, based on the methods proposed by (Zeng et al. 2024). These methods make no assumptions about the missingness mechanisms, and are particularly useful when data are missing not at random (MNAR). The methods are based on finding mathematical precise bounds of the MMD test statistics when the Laplacian kernel is used, and reject the null hypothesis when all possible test statistics are significant. For further details, see Zeng et al. (2024).
 
