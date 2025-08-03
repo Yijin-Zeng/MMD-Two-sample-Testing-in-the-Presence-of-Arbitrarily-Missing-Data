@@ -4,6 +4,8 @@ Maximum Mean Discrepancy (MMD) two-sample tests [1] are popular non-parametric t
 
 This repository contains R implementations for performing Maximum Mean Discrepancy (MMD) two-sample tests in the presence of missing data methods proposed in [1]. The methods provide both permutation-based and asymptotic testing procedures that can handle missing not at random (MNAR) data patterns, which is common in real-world applications.
 
+See more details in [1].
+
 ## Features
 
 - **Two-sample testing with missing data**: Robust MMD testing when samples contain missing values
