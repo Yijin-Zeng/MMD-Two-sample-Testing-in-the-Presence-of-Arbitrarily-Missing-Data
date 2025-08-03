@@ -6,22 +6,6 @@ This repository contains R implementations for performing Maximum Mean Discrepan
 
 See more details in [1].
 
-## Features
-
-- **Two-sample testing with missing data**: Robust MMD testing when samples contain missing values
-- **Multiple testing approaches**: 
-  - Permutation-based testing (suitable for all sample sizes)
-  - Asymptotic testing using Central Limit Theorem (recommended for n,m ≥ 25, d ≥ 50)
-- **Univariate and multivariate support**: Handle both 1D and multi-dimensional data
-- **Automatic bandwidth selection**: Median heuristic for kernel parameter selection
-
-## Methods
-
-The package implements bounds-based approaches:
-- **Lower bounds** for MMD estimates using available data
-- **Upper bounds** for variance estimation
-- **Studentized test statistics** for improved finite-sample performance
-
 ## Files Structure
 
 - `Examples.R` - Comprehensive examples demonstrating all testing scenarios
