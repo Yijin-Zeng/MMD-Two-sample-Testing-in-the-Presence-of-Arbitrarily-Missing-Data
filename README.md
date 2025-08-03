@@ -1,6 +1,6 @@
 # MMD Testing with Missing Data
 
-This repository contains R implementations for performing Maximum Mean Discrepancy (MMD) two-sample tests in the presence of missing data. The methods provide both permutation-based and asymptotic testing procedures that can handle missing completely at random (MCAR) data patterns.
+This repository contains R implementations for performing Maximum Mean Discrepancy (MMD) two-sample tests in the presence of missing data methods proposed in [1]. The methods provide both permutation-based and asymptotic testing procedures that can handle missing not at random (MNAR) data patterns.
 
 ## Overview
 
@@ -169,14 +169,8 @@ This implementation is based on statistical theory for handling missing data in 
 2. **Upper bounds** on variance estimates to maintain test validity
 3. **Conservative p-values** that account for missing data uncertainty
 
-## Citation
+## References
 
-If you use this code in your research, please cite the appropriate paper (citation information to be added).
+[1] Gretton A, Borgwardt KM, Rasch MJ, Schölkopf B, Smola A. A kernel two-sample test. The journal of machine learning research. 2012 Mar 1;13(1):723-73.
 
-## License
-
-[Add your preferred license here]
-
-## Contributing
-
-[Add contribution guidelines if desired]
+[2] Zeng Y, Adams NM, Bodenham DA. MMD Two-sample Testing in the Presence of Arbitrarily Missing Data. arXiv preprint arXiv:2405.15531. 2024 May 24.
