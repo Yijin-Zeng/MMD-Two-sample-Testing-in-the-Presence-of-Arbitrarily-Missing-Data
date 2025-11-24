@@ -6,7 +6,7 @@ This repository provides R implementations of Maximum Mean Discrepancy (MMD) two
 
 ## Files Structure
 
-- `Examples.R` - Comprehensive examples demonstrating all testing scenarios
+- `Examples.R` - Examples demonstrating testing scenarios
 - `MMD using permutation with Missing data.R` - Permutation-based testing implementation
 - `MMD using CLT with Missing data.R` - Asymptotic testing using CLT
 - `Laplacian Kernel.R` - Kernel function implementations
