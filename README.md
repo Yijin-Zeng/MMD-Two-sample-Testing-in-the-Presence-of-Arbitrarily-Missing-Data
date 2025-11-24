@@ -9,16 +9,18 @@ This repository provides R implementations of Maximum Mean Discrepancy (MMD) two
 - `Examples.R` - Examples demonstrating testing scenarios
 - `MMD using permutation with Missing data.R` - Permutation-based testing implementation
 - `MMD using CLT with Missing data.R` - Asymptotic testing using CLT
-- `Laplacian Kernel.R` - Kernel function implementations
-- `Median Heuristic.R` - Automatic bandwidth selection
-- `Univariate Bounds MMD.R` - Bounds computation for 1D data
+- `Laplacian Kernel.R` - Laplacian kernel function implementations
+- `Median Heuristic.R` - Bandwidth selection
+- `Univariate Bounds MMD.R` - Bounds for univariate data
 - `Multivariate Lower Bounds MMD.R` - Lower bounds for multivariate data
 - `Multivariate Upper Bounds MMD.R` - Upper bounds for multivariate data
 - `Multivariate Maximum Variance MMD.R` - Variance estimation for multivariate data
-- `CLT for studentized test statistic.R` - Asymptotic distribution theory
+- `CLT for studentized test statistic.R` - Asymptotic distribution of MMD
 
 ## References
 
 Gretton A, Borgwardt KM, Rasch MJ, Schölkopf B, Smola A. A kernel two-sample test. The journal of machine learning research. 2012 Mar 1;13(1):723-73.
+
+Gao H, Shao X. Two sample testing in high dimension via maximum mean discrepancy. Journal of Machine Learning Research. 2023;24(304):1-33.
 
 Zeng Y, Adams NM, Bodenham DA. MMD Two-sample Testing in the Presence of Arbitrarily Missing Data. arXiv preprint arXiv:2405.15531. 2024 May 24.
